@@ -5,4 +5,14 @@ ej.: "El resto es 0 ."*/
 function SacarResto()
 {
 	
+
+	dividendo=numeroDividendo.value;
+	divisor=numeroDivisor.value;
+
+		var resto=parseInt(dividendo)%parseInt(divisor);		
+
+		alert("El resto es "+resto);
+
+	
+	
 }

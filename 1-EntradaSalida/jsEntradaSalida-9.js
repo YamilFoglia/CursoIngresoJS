@@ -5,5 +5,17 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
+
+	sueldo=sueldo.value;
+	resultado=resultado.value;		
+
+	var aumento=parseInt(sueldo);
+
+	resultado.value=aumento;
+
+
+
+
+
 	
 }

@@ -9,11 +9,5 @@ function mostrar()
 
 	elNombre.value=nombre; 
 
-
-
-
-
 }
-
-
 
