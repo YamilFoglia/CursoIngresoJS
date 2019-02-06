@@ -10,13 +10,14 @@ function sumar()
 
 	uno=numeroUno.value;
 	uno=parseInt(uno);
-
 	dos=numeroDos.value;
 	dos=parseInt(dos);
 
 	resultado=uno+dos;
 
-	alert("La suma es: "+resultado);
+
+	alert("La suma es "+resultado);
+
 
 }
 

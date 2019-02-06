@@ -5,19 +5,23 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
-	var ingreso;
+	var ingresos;
 	var aumento;
-	var SueldoFinal;
+	var ingresoaumentado;
 
 
-	ingreso=sueldo.value;
-	ingreso=parseInt(ingreso);
+	ingresos=sueldo.value;
+	ingresos=parseInt(ingresos);
 
-	aumento=ingreso*10/100;
+	aumento= ingresos*10/100;
 
-	SueldoFinal=ingreso+aumento;
+	ingresoaumentado=ingresos+aumento;
 
-	resultado.value= SueldoFinal;
+
+	resultado.value=ingresoaumentado
+
+
+
 
 	
 }

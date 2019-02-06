@@ -13,9 +13,12 @@ function sumar()
 	uno=parseInt(uno);
 	dos=numeroDos.value;
 	dos=parseInt(dos);
-	resultado= uno+dos;
 
-	alert("La suma es: "+resultado);
+	resultado=uno+dos;
+
+
+	alert("La suma es "+resultado);
+
 
 }
 
@@ -30,9 +33,11 @@ function restar()
 	uno=parseInt(uno);
 	dos=numeroDos.value;
 	dos=parseInt(dos);
-	resultado= uno-dos;
 
-	alert("La resta es: "+resultado);
+	resultado=uno-dos;
+
+
+	alert("La resta es "+resultado);
 
 
 }
@@ -48,16 +53,18 @@ function multiplicar()
 	uno=parseInt(uno);
 	dos=numeroDos.value;
 	dos=parseInt(dos);
-	resultado= uno*dos;
 
-	alert("La multiplicion es: "+resultado);
+	resultado=uno*dos;
 
-	
+
+	alert("La multiplicacion es "+resultado);
+
+
 }
-
 
 function dividir()
 {
+	
 	
 	var uno;
 	var dos;
@@ -67,9 +74,11 @@ function dividir()
 	uno=parseInt(uno);
 	dos=numeroDos.value;
 	dos=parseInt(dos);
-	resultado= uno/dos;
 
-	alert("La divicion es: "+resultado);
+	resultado=uno/dos;
 
+
+	alert("La divicion es "+resultado);
 
 }
+
