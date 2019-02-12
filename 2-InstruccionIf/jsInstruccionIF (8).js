@@ -10,14 +10,16 @@ function mostrar()
 	años=edad.value;
 	años=parseInt(años);
 	estado=estadoCivil.value;
-	estado=parseInt(estado);
+	
 
-
-	if(años>18)
+	if(años>17)
+	{
 		if(estado=="Soltero")
-
 		{
 			alert("Es soltero y no es menor");
 		}
+
+	}
+		
 
 }//FIN DE LA FUNCIÓN
