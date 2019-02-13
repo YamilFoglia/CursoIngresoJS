@@ -5,40 +5,10 @@ function mostrar()
 	var años;
 
 	años=edad.value;
-	años=parseInt(años);
-/*
-if(años<13)
-{
-	alert("Usted no es un/a adolescente");
-}
 
-if(años>17)	
-{
-	alert("Usted no es un/a adolescente");
-}*/
+	if(años<12 || años>18)
+	{
+		alert("Usted no es un/a adolecente");
+	}
 
-
-/*
-if(años<13  || años>17)	
-{
-	alert("Usted no es un/a adolescente");
-}
-
-*/
-/*
-if(años<18 && años>12)
-{
-
-
-}else
-{
-	alert("Usted no es un/a adolescente");
-}
-*/
-
-if (!(años<18 && años>12))
-{
-	alert("Usted no es un/a adolescente");
-
-}
 }//FIN DE LA FUNCIÓN

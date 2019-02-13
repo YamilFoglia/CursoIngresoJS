@@ -7,10 +7,10 @@ function mostrar()
 	años=edad.value;
 	años=parseInt(años);
 
-if(años==15)
+	if(años==15)
 {
-	alert("Niña Bonita");
+	alert("niña bonita");
 }
-
+		
 
 }//FIN DE LA FUNCIÓN

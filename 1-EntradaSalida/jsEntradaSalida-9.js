@@ -4,18 +4,16 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
+	var ingreso;
+	var aumento;
+	var sueldoFinal;
 
+	ingreso=sueldo.value;
+	ingreso=parseInt(ingreso);
 
-	sueldo=sueldo.value;
-	resultado=resultado.value;		
+	aumento=ingreso*10/100;
 
-	var aumento=parseInt(sueldo);
+	sueldoFinal=ingreso+aumento;
 
-	resultado.value=aumento;
-
-
-
-
-
-	
+	resultado.value=sueldoFinal;	
 }

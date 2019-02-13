@@ -4,10 +4,10 @@
 */
 function mostrar()
 {
+	var nombre;
 
-	var nombre=prompt("Por favor ingrese su nombre");
+	nombre=prompt("Ingrese su nombre");
 
-	elNombre.value=nombre; 
-
+	elNombre.value=nombre;
 }
 
